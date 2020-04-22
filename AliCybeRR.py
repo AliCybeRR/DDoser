@@ -75,12 +75,12 @@ def dos2():
 
 
 def usage():
-	print ('''  Ddos Script power By AliCybeRR / By Iranian Hackers
+	print (''' \033[92m   Ddos Script power By AliCybeRR / By Iranian Hackers
 	please subscribe my github chanel
 	usage : python AliCybeRR.py  [-s] [-p] [-t]
 	-s : server ip 
 	-p : port default 80
-	-t : turbo default 135''')
+	-t : turbo default 135   \033[92m''')
 	sys.exit()
 
 
