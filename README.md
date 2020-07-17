@@ -23,5 +23,9 @@ ls
 python AliCybeRR.py
 
 خب حالا باید اینجوری بزنین 
-python AliCybeRR.py -s سایت -p 80 t-200 
+
+
+python AliCybeRR.py -s target ip -p 80 t-200 
+
+
 میتونید پورت و توربو هم تغییر بدین
