@@ -27,5 +27,9 @@ python AliCybeRR.py
 
 python AliCybeRR.py -s target ip -p 80 t-200 
 
+اگه دستور بالا اوکی نبود
+
+python3 AliCybeRR.py -s target ip -p 80 t- 200
+
 
 میتونید پورت و توربو هم تغییر بدین
